@@ -138,6 +138,7 @@ let g:which_key_map.m = {
 " s is for search powered by telescope
 let g:which_key_map.s = {
       \ 'name' : '+search' ,
+	  \ 'c' : [':Telescope commands',					  'commands'],
       \ '.' : [':Telescope filetypes'                   , 'filetypes'],
       \ 'B' : [':Telescope git_branches'                , 'git branches'],
       \ 'd' : [':Telescope lsp_document_diagnostics'    , 'document_diagnostics'],
