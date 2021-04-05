@@ -36,6 +36,7 @@ return require('packer').startup(function(use)
 
     -- Debugging
     use 'mfussenegger/nvim-dap'
+	use { 'nvim-telescope/telescope-dap.nvim' }
 
     -- Autocomplete
     use 'hrsh7th/nvim-compe'
