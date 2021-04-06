@@ -1,0 +1,1 @@
+nnoremap gd :LspDefinition<CR>
